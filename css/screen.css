@@ -29,11 +29,33 @@ html {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: inherit;
+  line-height: inherit;
   margin: 0.67em 0;
+}
+
+p {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+} 
+
+/*Layout style */
+img {
+  display: block;
+  position: relative;
+  max-width: 50%;
+  max-height: 25%;
+  margin: 0 auto;
 }
 
 input {
   display: inline-block;
   margin-bottom: 1em;
 }
+
+h2 {
+  padding-top: 2em;
+}
+
+/*state style */
