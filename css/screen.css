@@ -40,6 +40,15 @@ p {
   margin: 0;
 } 
 
+/*Modular style */
+#name,
+#email,
+#address,
+#city,
+#state {
+  margin-bottom: 1em;
+}
+
 /*Layout style */
 img {
   display: block;
@@ -50,12 +59,19 @@ img {
 }
 
 input {
-  display: inline-block;
+  display: block;
+  position: relative;
+  margin: 0 auto;
   margin-bottom: 1em;
 }
 
 h2 {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 /*state style */
+@media screen and (min-width: 60em) {
+  #content {
+    width: 100%;
+  }
+}
